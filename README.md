@@ -18,3 +18,14 @@
 计划用wepy或者直接原生的
 
 以功能点分模块实现,tabBar采用两栏设计--文件，我的
+
+# 框架结构
+
+- src
+ - components 公用组件
+ - mixins 混合数据
+ - pages 所有页面
+   - index 主页
+   - login 登录页
+   - personal 个人页
+ - app 小程序主页入口
